@@ -1,9 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
 def solve(n,m):
     """
             Time Complexity: O(m * n)
@@ -26,11 +20,9 @@ def solve(n,m):
     print("The probability that graduation ceremony will be missed: " + f"{x2}/{x1}")
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     n = int(input('Enter total number of days(n) where the last day is the graduation day: '))
     m = int(input('Enter number of days < n greater than or equal to which cannot be missed consecutively otherwise graduation ceremony'
                   ' cannot be attended(m): '))
     solve(n,m)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
