@@ -1,6 +1,5 @@
 # python-assignment-round2
 
-Impact Analytics Assignment
 
 ## Question
 
